@@ -6,7 +6,7 @@ const Bar = ({Icon}) => {
     <div className="wrapper">
         <div className="accordion">
             <div className="item">
-                <div className="title" onMouseOver={()=>setSelect(!select)}>
+                <div className="title" onMouseUp={()=>setSelect(!select)}>
                     <p className='head_title'>{Icon}</p>
                     <span>
                         <img 

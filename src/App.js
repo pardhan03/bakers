@@ -8,18 +8,21 @@ import SixthContainer from "./Component/SixthContainer";
 import SeventhContainer from "./Component/SeventhContainer";
 import EighthContainer from "./Component/EighthContainer";
 import Footer from "./Component/Footer";
+import SecondContainer from "./Component/SecondContainer";
 function App() {
   return (
     <div className="App">
       <Header/>
       <BasicSlider/>
       <FirstContainer/>
+      <SecondContainer/>
       <ThirdContainer/>
       <FirthContainer/>
       <FifthContainer/>
       <SixthContainer/>
       <SeventhContainer/>
       <EighthContainer/>
+      <Footer/>
     </div>
   );
 }
