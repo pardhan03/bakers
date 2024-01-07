@@ -3,7 +3,7 @@ import CustomizedAccordions from '../utils/Accordion'
 const ThirdContainer = () => {
   return (
     <div className="third_container">
-        <div>
+        <div className='third_inner'>
             <h1>Sale and Delivery Points</h1>
             <h3>Where to buy our high quality Cake</h3>
             <p>

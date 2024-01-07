@@ -20,7 +20,6 @@ function App() {
       <SixthContainer/>
       <SeventhContainer/>
       <EighthContainer/>
-      <Footer/>
     </div>
   );
 }

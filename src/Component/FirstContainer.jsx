@@ -2,7 +2,7 @@ import React from 'react'
 import { CupCakeImages } from '../Images/CupCakeImages'
 const FirstContainer = () => {
   return (
-    <div>
+    <div className='first_container'>
         <div className="capcake_container">
             {CupCakeImages.map(()=>(
                 <div
